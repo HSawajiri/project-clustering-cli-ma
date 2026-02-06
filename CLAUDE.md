@@ -252,7 +252,14 @@ CLIツール（コマンドライン実行可能な.exeファイル）
 - ✅ Designer: 設計書作成完了時
 - ✅ Implementer: コード実装完了時（機能ごと）
 - ✅ Tester: テスト実行完了時
-- ✅ Manager: 各フェーズ完了時（集計）
+- ✅ Manager: 自身の作業完了時（WBS作成、レビュー等） + 各フェーズ完了時（集計レポート）
+
+**Managerの作業例:**
+- WBS作成・進捗管理
+- 要件定義書レビュー
+- 設計書レビュー
+- SubAgentオーケストレーション
+- リリース判断
 
 **詳細:** 開発プロセス標準（`~/projects/claude-dev-standards/CLAUDE.md`）を参照
 
