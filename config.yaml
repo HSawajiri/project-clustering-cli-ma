@@ -1,0 +1,27 @@
+# CLI Tool Configuration File
+
+# アプリケーション設定
+app:
+  name: "CLI Tool"
+  version: "1.0.0"
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+# 入力/出力設定
+io:
+  input_file: "input.csv"
+  output_file: "output.csv"
+  output_timestamp: true  # 出力ファイル名にタイムスタンプを付与
+
+# 処理オプション
+processing:
+  # ここにプロジェクト固有の処理オプションを追加
+  # 例:
+  # batch_size: 1000
+  # timeout: 300
+  # retry_count: 3
+
+# ログ設定
+logging:
+  console: true
+  file: false
+  file_path: "logs/app.log"
