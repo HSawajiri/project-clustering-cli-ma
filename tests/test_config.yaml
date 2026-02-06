@@ -1,0 +1,30 @@
+# Test Configuration File
+
+# 前処理オプション
+preprocessing:
+  normalize_width: true
+  remove_spaces: true
+  remove_period: true
+  remove_phase: true
+  remove_symbols: true
+  normalize_abbreviations: false
+
+# 入出力設定
+io:
+  input_file: "tests/data/test_sample.csv"
+  output_prefix: "test_output"
+  output_timestamp: true
+
+# クラスタリング設定
+clustering:
+  company_cluster_settings:
+    "みらい銀行": "+2"
+    "東京システム株式会社": 3
+    "ABC株式会社": "-1"
+
+# ログ設定
+logging:
+  console: true
+  file: true
+  file_path: "test_clustering.log"
+  level: "INFO"
