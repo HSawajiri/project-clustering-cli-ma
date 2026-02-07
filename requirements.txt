@@ -1,9 +1,14 @@
-# Python dependencies for CLI Tool
+# Python dependencies for Project Clustering CLI MA
 
 # Core
 PyYAML==6.0.1
 
-# Optional: Add project-specific dependencies here
-# pandas==2.1.3
-# numpy==1.26.2
-# scikit-learn==1.3.2
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+
+# Machine Learning
+scikit-learn==1.3.2
+
+# Build
+# PyInstaller (install separately for building .exe)
