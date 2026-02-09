@@ -25,6 +25,7 @@ wheels/
 
 # PyInstaller
 *.spec
+!build.spec  # build.spec は Git 管理する
 build/
 dist/
 
