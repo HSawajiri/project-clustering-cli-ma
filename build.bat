@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 REM PyInstaller ビルドスクリプト (Windows)
 REM Project Clustering CLI MA
 
